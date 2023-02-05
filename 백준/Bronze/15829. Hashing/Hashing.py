@@ -9,4 +9,4 @@ for char in string :
     hashValue += (ord(char) - 96) * (31 ** i)
     i += 1
     
-print(hashValue)
+print(hashValue % 1234567891)
