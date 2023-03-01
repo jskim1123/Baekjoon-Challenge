@@ -1,3 +1,7 @@
+### basic concepts : deque를 이용해 양방향에서 연산함. R 연산이 등장할 때마다 reverse()를 사용하는 것은 시간 복잡도가 상승할 것 같아
+###                : isReversed라는 변수를 두고, 이 값에 따라 pop()과 popleft()를 사용함.
+###                : n == 0일 때 (배열이 비어있을 때) D는 error지만 R은 가능하다는 것에 주의.
+
 from sys import stdin
 from collections import deque
 
